@@ -1,2 +1,5 @@
 # INSIGHTS-INTO-COORDINATE-RELATING-TO-RADIAL-VELOCITY-MEASUREMENT-OF-NGC-7531
-STAT 444 Final Project
+
+This project aims to construct a suitable model to describe the association between the measured radial velocity of NGC 7531 and the coordinates of positions in the sky from which it is measured. We assume a Gaussian error with homoscedasticity on the measurements and constructed models using ordinary least squares, regularized least squares with $\ell^2$ norm penalty, cubic polynomials, and cubic B-splines additive model in this project. After assessing their performances using the AIC, training error, and estimated mean prediction squared error via cross-validation, we select the cubic B-splines additive model as the final model to make inferences about the association between the measured radial velocity of NGC 7531 and its coordinates. 
+
+This project was complete as part of my coursework requirement in STAT 444 (Advanced Regression) at the University of Waterloo.
